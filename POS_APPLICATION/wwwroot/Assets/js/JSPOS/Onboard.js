@@ -342,13 +342,13 @@
                             $("#tableSavedillust tbody").append("<tr>" +
                                 "<td hidden><input class='form-control' style='width:40px;' name='DOCUMENT_ID' id='DOCUMENT_ID" + count + "' value='" + data[i].DOCUMENT_ID + "'>" + data[i].DOCUMENT_ID + "</td>" +
                                 "<td hidden><input class='form-control' style='width:40px;' name='DOCUMENT_CODE' id='DOCUMENT_CODE" + count + "' value='" + data[i].DOCUMENT_CODE + "'></td>" +
+                                "<td><img src='/Assets/images/continue_btn.png' class='illustIcons' id='continueDoc" + count + "' onclick='continueThisDocument(this.id)'/></td>" +
                                 "<td>" + data[i].DOCUMENT_CODE + "</td>" +
                                 "<td>PKR " + nf.format(data[i].POL_COVGE_SUMASSURD) + "</td>" +
                                 "<td>PKR " + nf.format(data[i].BASIC_CONTRIBUTION) + "</td>" +
                                 "<td>" + data[i].MEMBERSHIP_TERM + "</td>" +
                                 "<td><img src='/Assets/images/down-arrow.png' class='illustIcons' id='downloadDoc" + count + "' onclick='downloadThisDocument(this.id)'/></td>" +
                                 "<td><img src='/Assets/images/edit_pencil.png' class='illustIcons' id='editDoc" + count + "' onclick='editThisDocument(this.id)'/></td>" +
-                                "<td><img src='/Assets/images/continue_btn.png' class='illustIcons' id='continueDoc" + count + "' onclick='continueThisDocument(this.id)'/></td>" +
                                 "</tr>");
                             count += 1;
                         }
@@ -395,13 +395,13 @@
                             $("#tableSavedillust tbody").append("<tr>" +
                                 "<td hidden><input class='form-control' style='width:40px;' name='DOCUMENT_ID' id='DOCUMENT_ID" + count + "' value='" + data[i].DOCUMENT_ID + "'>" + data[i].DOCUMENT_ID + "</td>" +
                                 "<td hidden><input class='form-control' style='width:40px;' name='DOCUMENT_CODE' id='DOCUMENT_CODE" + count + "' value='" + data[i].DOCUMENT_CODE + "'></td>" +
+                                "<td><img src='/Assets/images/continue_btn.png' class='illustIcons' id='continueDoc" + count + "' onclick='continueThisDocument(this.id)'/></td>" +
                                 "<td>" + data[i].DOCUMENT_CODE + "</td>" +
                                 "<td>PKR " + nf.format(data[i].POL_COVGE_SUMASSURD) + "</td>" +
                                 "<td>PKR " + nf.format(data[i].BASIC_CONTRIBUTION) + "</td>" +
                                 "<td>" + data[i].MEMBERSHIP_TERM + "</td>" +
                                 "<td><img src='/Assets/images/down-arrow.png' class='illustIcons' id='downloadDoc" + count + "' onclick='downloadThisDocument(this.id)'/></td>" +
                                 "<td><img src='/Assets/images/edit_pencil.png' class='illustIcons' id='editDoc" + count + "' onclick='editThisDocument(this.id)'/></td>" +
-                                "<td><img src='/Assets/images/continue_btn.png' class='illustIcons' id='continueDoc" + count + "' onclick='continueThisDocument(this.id)'/></td>" +
                                 "</tr>");
                             count += 1;
                         }
@@ -605,13 +605,13 @@
                                                 $("#tableSavedillust tbody").append("<tr>" +
                                                     "<td hidden><input class='form-control' style='width:40px;' name='DOCUMENT_ID' id='DOCUMENT_ID" + count + "' value='" + data[i].DOCUMENT_ID + "'>" + data[i].DOCUMENT_ID + "</td>" +
                                                     "<td hidden><input class='form-control' style='width:40px;' name='DOCUMENT_CODE' id='DOCUMENT_CODE" + count + "' value='" + data[i].DOCUMENT_CODE + "'></td>" +
+                                                    "<td><img src='/Assets/images/continue_btn.png' class='illustIcons' id='continueDoc" + count + "' onclick='continueThisDocument(this.id)'/></td>" +
                                                     "<td>" + data[i].DOCUMENT_CODE + "</td>" +
                                                     "<td>PKR " + nf.format(data[i].POL_COVGE_SUMASSURD) + "</td>" +
                                                     "<td>PKR " + nf.format(data[i].BASIC_CONTRIBUTION) + "</td>" +
                                                     "<td>" + data[i].MEMBERSHIP_TERM + "</td>" +
                                                     "<td><img src='/Assets/images/down-arrow.png' class='illustIcons' id='downloadDoc" + count + "' onclick='downloadThisDocument(this.id)'/></td>" +
                                                     "<td><img src='/Assets/images/edit_pencil.png' class='illustIcons' id='editDoc" + count + "' onclick='editThisDocument(this.id)'/></td>" +
-                                                    "<td><img src='/Assets/images/continue_btn.png' class='illustIcons' id='continueDoc" + count + "' onclick='continueThisDocument(this.id)'/></td>" +
                                                     "</tr>");
                                                 count += 1;
                                             }
@@ -1165,13 +1165,13 @@ function checkCNICQuotations(Val, ID2) {
                         $("#tableSavedillust tbody").append("<tr>" +
                             "<td hidden><input class='form-control' style='width:40px;' name='DOCUMENT_ID' id='DOCUMENT_ID" + count + "' value='" + data[i].DOCUMENT_ID + "'>" + data[i].DOCUMENT_ID + "</td>" +
                             "<td hidden><input class='form-control' style='width:40px;' name='DOCUMENT_CODE' id='DOCUMENT_CODE" + count + "' value='" + data[i].DOCUMENT_CODE + "'></td>" +
+                            "<td><img src='/Assets/images/continue_btn.png' class='illustIcons' id='continueDoc" + count + "' onclick='continueThisDocument(this.id)'/></td>" +
                             "<td>" + data[i].DOCUMENT_CODE + "</td>" +
                             "<td>PKR " + nf.format(data[i].POL_COVGE_SUMASSURD) + "</td>" +
                             "<td>PKR " + nf.format(data[i].BASIC_CONTRIBUTION) + "</td>" +
                             "<td>" + data[i].MEMBERSHIP_TERM + "</td>" +
                             "<td><img src='/Assets/images/down-arrow.png' class='illustIcons' id='downloadDoc" + count + "' onclick='downloadThisDocument(this.id)'/></td>" +
                             "<td><img src='/Assets/images/edit_pencil.png' class='illustIcons' id='editDoc" + count + "' onclick='editThisDocument(this.id)'/></td>" +
-                            "<td><img src='/Assets/images/continue_btn.png' class='illustIcons' id='continueDoc" + count + "' onclick='continueThisDocument(this.id)'/></td>" +
                             "</tr>");
                         count += 1;
                     }
